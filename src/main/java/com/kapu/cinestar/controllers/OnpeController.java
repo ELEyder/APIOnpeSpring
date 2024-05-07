@@ -27,7 +27,7 @@ import com.kapu.cinestar.repository.ITarifas;
 @RequestMapping
 @CrossOrigin
 @Configuration
-public class CinestarController extends WebMvcAutoConfiguration {
+public class OnpeController extends WebMvcAutoConfiguration {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**");
     }
