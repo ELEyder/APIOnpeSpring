@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 
-import com.kapu.onpe.models.Cine;
-import com.kapu.onpe.repository.ICines;
+import com.kapu.onpe.models.Acta;
+import com.kapu.onpe.repository.IActa;
 
 @RestController
 @RequestMapping
@@ -24,17 +24,12 @@ public class OnpeController extends WebMvcAutoConfiguration {
         registry.addMapping("/**");
     }
 
-    @Autowired
-	private ICines iCine;
-
-    @GetMapping("/cines")
-	public List<Cine> getCines() {
-			return (List<Cine>) iCine.getCines();
-		}
-
-    @GetMapping("/cines/{id}")
-	public List<Cine> getCine(@PathVariable("id") String id) {
-		return (List<Cine>) iCine.getCine(id);
+	@Autowired
+	private IActa iActa;
+    
+	@GetMapping("/actas/numero/{id}")
+	public List<Acta> getActaNum(@PathVariable("id") String id) {
+		return (List<Acta>) iActa.getActaNum(id);
 	}
 
 	// @Autowired
