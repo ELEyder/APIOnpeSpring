@@ -14,8 +14,10 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 
 import com.kapu.onpe.models.Acta;
 import com.kapu.onpe.models.Departamento;
+import com.kapu.onpe.models.Provincia;
 import com.kapu.onpe.repository.IActa;
 import com.kapu.onpe.repository.IDepartamento;
+import com.kapu.onpe.repository.IProvincia;
 
 @RestController
 @RequestMapping
@@ -49,6 +51,14 @@ public class OnpeController extends WebMvcAutoConfiguration {
 	@GetMapping("/actas/ubigeo/")
 	public List<Departamento> getDepartamentos2() {
 		return (List<Departamento>) iDepartamento.getDepartamentos("26","30");
+	}
+
+	@Autowired
+	private IProvincia IProvincia;
+
+	@GetMapping("/actas/ubigeo/{departamento}/{id}")
+	public List<Provincia> getProvincias(@PathVariable("id") String id) {
+		return (List<Provincia>) IProvincia.getProvincias(id);
 	}
 
 	// @Autowired
