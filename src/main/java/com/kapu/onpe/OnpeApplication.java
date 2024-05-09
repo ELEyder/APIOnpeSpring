@@ -1,4 +1,4 @@
-package com.kapu.cinestar;
+package com.kapu.onpe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

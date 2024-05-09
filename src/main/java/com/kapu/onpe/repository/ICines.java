@@ -1,4 +1,4 @@
-package com.kapu.cinestar.repository;
+package com.kapu.onpe.repository;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.kapu.cinestar.models.Cine;
+import com.kapu.onpe.models.Cine;
 
 @Repository
 public interface ICines extends JpaRepository<Cine,Integer>{

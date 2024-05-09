@@ -1,4 +1,4 @@
-package com.kapu.cinestar.models;
+package com.kapu.onpe.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
