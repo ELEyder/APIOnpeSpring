@@ -7,10 +7,10 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.kapu.onpe.models.Acta;
+import com.kapu.onpe.models.Departamento;
 
 @Repository
-public interface IDepartamento extends JpaRepository<Acta,Integer>{
-    @Query(value = "{call sp_getGrupoVotacion(:id)}", nativeQuery = true )
-	List<Acta> getActaNum(@Param("id")String id);
+public interface IDepartamento extends JpaRepository<Departamento,Integer>{
+    @Query(value = "{call sp_getDepartamentos(:id, :id2)}", nativeQuery = true )
+	List<Departamento> getDepartamentos(@Param("id")String id, @Param("id2")String id2);
 }
