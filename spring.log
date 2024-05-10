@@ -7140,3 +7140,33 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2024-05-09T19:07:53.818-05:00  INFO 12312 --- [onpe] [http-nio-8080-exec-3] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-05-09T19:07:53.819-05:00  INFO 12312 --- [onpe] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-05-09T19:07:53.824-05:00  INFO 12312 --- [onpe] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-05-09T19:14:39.828-05:00  INFO 3764 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Starting OnpeApplication using Java 22.0.1 with PID 3764 (C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring\target\classes started by Eyder in C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring)
+2024-05-09T19:14:39.833-05:00  INFO 3764 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T19:14:40.069-05:00  INFO 3764 --- [onpe] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-09T19:14:40.071-05:00  INFO 3764 --- [onpe] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-09T19:14:42.747-05:00  INFO 3764 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T19:14:43.131-05:00  INFO 3764 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 287 ms. Found 6 JPA repository interfaces.
+2024-05-09T19:14:47.795-05:00  INFO 3764 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-09T19:14:47.923-05:00  INFO 3764 --- [onpe] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T19:14:47.925-05:00  INFO 3764 --- [onpe] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T19:14:48.242-05:00  INFO 3764 --- [onpe] [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring embedded WebApplicationContext
+2024-05-09T19:14:48.244-05:00  INFO 3764 --- [onpe] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8171 ms
+2024-05-09T19:14:48.991-05:00  INFO 3764 --- [onpe] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09T19:14:49.576-05:00  INFO 3764 --- [onpe] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-09T19:14:49.745-05:00  INFO 3764 --- [onpe] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-09T19:14:50.619-05:00  INFO 3764 --- [onpe] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09T19:14:50.711-05:00  INFO 3764 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T19:14:51.178-05:00  INFO 3764 --- [onpe] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49119a53
+2024-05-09T19:14:51.187-05:00  INFO 3764 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T19:14:51.474-05:00  WARN 3764 --- [onpe] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-09T19:14:53.837-05:00  INFO 3764 --- [onpe] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09T19:14:53.857-05:00  INFO 3764 --- [onpe] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:14:54.828-05:00  INFO 3764 --- [onpe] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-09T19:14:55.395-05:00  WARN 3764 --- [onpe] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T19:14:56.752-05:00  INFO 3764 --- [onpe] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-09T19:14:57.104-05:00  INFO 3764 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1/onpe'
+2024-05-09T19:14:57.145-05:00  INFO 3764 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Started OnpeApplication in 19.347 seconds (process running for 20.671)
+2024-05-09T19:15:29.570-05:00  INFO 3764 --- [onpe] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-09T19:15:29.674-05:00  INFO 3764 --- [onpe] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:15:29.694-05:00  INFO 3764 --- [onpe] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T19:15:29.904-05:00  INFO 3764 --- [onpe] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
