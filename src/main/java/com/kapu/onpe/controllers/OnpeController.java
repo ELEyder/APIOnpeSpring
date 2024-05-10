@@ -18,6 +18,7 @@ import com.kapu.onpe.models.Provincia;
 import com.kapu.onpe.models.Distrito;
 import com.kapu.onpe.models.LocalVotacion;
 import com.kapu.onpe.models.GrupoVotacion;
+import com.kapu.onpe.models.Participacion;
 import com.kapu.onpe.repository.IActa;
 import com.kapu.onpe.repository.IDepartamento;
 import com.kapu.onpe.repository.IProvincia;
@@ -25,6 +26,7 @@ import com.kapu.onpe.repository.IDistrito;
 import com.kapu.onpe.repository.ILocalVotacion;
 import com.kapu.onpe.repository.IGrupoVotacion;
 import com.kapu.onpe.repository.IGrupo;
+import com.kapu.onpe.repository.IParticipacion;
 
 
 @RestController
@@ -96,8 +98,33 @@ public class OnpeController extends WebMvcAutoConfiguration {
 	@Autowired
 	private IGrupo IGrupo;
 	
-		@GetMapping("/actas/ubigeo/{Departamento}/{id}/{id2}/{id3}/{id4}/{id5}")
-		public List<Acta> getGrupo(@PathVariable("id") String id, @PathVariable("id2") String id2, @PathVariable("id3") String id3, @PathVariable("id4") String id4, @PathVariable("id5") String id5) {
-			return (List<Acta>) IGrupo.getGrupo(id, id2, id3, id4, id5);
+	@GetMapping("/actas/ubigeo/{Departamento}/{id}/{id2}/{id3}/{id4}/{id5}")
+	public List<Acta> getGrupo(@PathVariable("id") String id, @PathVariable("id2") String id2, @PathVariable("id3") String id3, @PathVariable("id4") String id4, @PathVariable("id5") String id5) {
+		return (List<Acta>) IGrupo.getGrupo(id, id2, id3, id4, id5);
 	}
+
+	@Autowired
+	private IParticipacion IParticipacion;
+	
+	@GetMapping("/participacion/{id}")
+	public List<Participacion> getParticipacion(@PathVariable("id") String id) {
+		if (id.equals("Nacional")){
+			return (List<Participacion>) IParticipacion.getParticipacion("1","25");
+		} else if (id.equals("Extranjero")){
+			return (List<Participacion>) IParticipacion.getParticipacion("25","30");
+		}
+		return (List<Participacion>) IParticipacion.getParticipacion("1","25");
+	}
+
+	@GetMapping("/participacion/{Nacional}/{id}")
+	public List<Participacion> getParticipacionDepartamento(@PathVariable("id") String id) {
+		return (List<Participacion>) IParticipacion.getParticipacionDepartamento(id);
+	}
+
+	@GetMapping("/participacion/{Nacional}/{AMAZONAS}/{id}")
+	public List<Participacion> getVotosProvincia(@PathVariable("id") String id) {
+		return (List<Participacion>) IParticipacion.getVotosProvincia(id);
+	}
+	
+
 }
