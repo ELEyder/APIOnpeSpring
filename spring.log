@@ -7474,3 +7474,36 @@ com.kapu.onpe.controllers.OnpeController#getGrupo(String, String, String, String
 2024-05-09T19:34:58.929-05:00  INFO 15828 --- [onpe] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-05-09T19:34:58.929-05:00  INFO 15828 --- [onpe] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-05-09T19:34:58.931-05:00  INFO 15828 --- [onpe] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-09T19:40:32.979-05:00  INFO 15828 --- [onpe] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-09T19:40:32.990-05:00  INFO 15828 --- [onpe] [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:40:32.995-05:00  INFO 15828 --- [onpe] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-05-09T19:40:33.014-05:00  INFO 15828 --- [onpe] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-05-09T19:40:33.227-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Starting OnpeApplication using Java 22.0.1 with PID 15828 (C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring\target\classes started by Eyder in C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring)
+2024-05-09T19:40:33.233-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T19:40:33.703-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T19:40:33.775-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 7 JPA repository interfaces.
+2024-05-09T19:40:34.077-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-09T19:40:34.083-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T19:40:34.085-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T19:40:34.188-05:00  INFO 15828 --- [onpe] [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring embedded WebApplicationContext
+2024-05-09T19:40:34.189-05:00  INFO 15828 --- [onpe] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 950 ms
+2024-05-09T19:40:34.296-05:00  INFO 15828 --- [onpe] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09T19:40:34.305-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-09T19:40:34.319-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09T19:40:34.322-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-05-09T19:40:34.328-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@711132c1
+2024-05-09T19:40:34.330-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-05-09T19:40:34.332-05:00  WARN 15828 --- [onpe] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-09T19:40:34.623-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09T19:40:34.624-05:00  INFO 15828 --- [onpe] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:40:34.881-05:00  WARN 15828 --- [onpe] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T19:40:35.037-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-09T19:40:35.059-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1/onpe'
+2024-05-09T19:40:35.064-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Started OnpeApplication in 1.913 seconds (process running for 522.298)
+2024-05-09T19:40:35.069-05:00  INFO 15828 --- [onpe] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-09T19:45:20.850-05:00  INFO 15828 --- [onpe] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-09T19:45:20.872-05:00  INFO 15828 --- [onpe] [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:45:20.876-05:00  INFO 15828 --- [onpe] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-05-09T19:45:20.884-05:00  INFO 15828 --- [onpe] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-05-09T19:45:21.038-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Starting OnpeApplication using Java 22.0.1 with PID 15828 (C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring\target\classes started by Eyder in C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring)
+2024-05-09T19:45:21.040-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : No active profile set, falling back to 1 default profile: "default"

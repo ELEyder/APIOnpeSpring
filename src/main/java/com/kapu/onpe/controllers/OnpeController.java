@@ -100,16 +100,4 @@ public class OnpeController extends WebMvcAutoConfiguration {
 		public List<Acta> getGrupo(@PathVariable("id") String id, @PathVariable("id2") String id2, @PathVariable("id3") String id3, @PathVariable("id4") String id4, @PathVariable("id5") String id5) {
 			return (List<Acta>) IGrupo.getGrupo(id, id2, id3, id4, id5);
 	}
-
-	// @Autowired
-	// private IPeliculas iPelicula;
-
-    // @GetMapping("/peliculas/{id}")
-	// public List<Pelicula> getPeliculas(@PathVariable("id") String id) {
-	// 	String idd = "1";
-	// 	if (id.equals("estrenos")) {
-	// 		idd = "2";
-	// 	} 
-	// 	return (List<Pelicula>) iPelicula.getPeliculas(idd);
-	// }
 }
