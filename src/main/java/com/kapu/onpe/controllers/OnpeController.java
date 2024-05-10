@@ -24,6 +24,7 @@ import com.kapu.onpe.repository.IProvincia;
 import com.kapu.onpe.repository.IDistrito;
 import com.kapu.onpe.repository.ILocalVotacion;
 import com.kapu.onpe.repository.IGrupoVotacion;
+import com.kapu.onpe.repository.IGrupo;
 
 
 @RestController
@@ -90,6 +91,14 @@ public class OnpeController extends WebMvcAutoConfiguration {
 	@GetMapping("/actas/ubigeo/{departamento}/{provincia}/{id}/{id2}/{id3}")
 	public List<GrupoVotacion> getGrupoVotacion(@PathVariable("id") String id, @PathVariable("id2") String id2, @PathVariable("id3") String id3) {
 		return (List<GrupoVotacion>) IGrupoVotacion.getGrupoVotacion(id, id2, id3);
+	}
+
+	@Autowired
+	private IGrupo IGrupo;
+	
+		@GetMapping("/actas/ubigeo/{Departamento}/{id}/{id2}/{id3}/{id4}/{id5}")
+		public List<Acta> getGrupo(@PathVariable("id") String id, @PathVariable("id2") String id2, @PathVariable("id3") String id3, @PathVariable("id4") String id4, @PathVariable("id5") String id5) {
+			return (List<Acta>) IGrupo.getGrupo(id, id2, id3, id4, id5);
 	}
 
 	// @Autowired

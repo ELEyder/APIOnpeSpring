@@ -7170,3 +7170,307 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2024-05-09T19:15:29.674-05:00  INFO 3764 --- [onpe] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-09T19:15:29.694-05:00  INFO 3764 --- [onpe] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-09T19:15:29.904-05:00  INFO 3764 --- [onpe] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T19:15:30.515-05:00  INFO 3764 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Starting OnpeApplication using Java 22.0.1 with PID 3764 (C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring\target\classes started by Eyder in C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring)
+2024-05-09T19:15:30.533-05:00  INFO 3764 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T19:15:31.899-05:00  INFO 3764 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T19:15:31.997-05:00  INFO 3764 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 6 JPA repository interfaces.
+2024-05-09T19:15:32.843-05:00  INFO 3764 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-09T19:15:32.853-05:00  INFO 3764 --- [onpe] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T19:15:32.860-05:00  INFO 3764 --- [onpe] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T19:15:33.145-05:00  INFO 3764 --- [onpe] [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring embedded WebApplicationContext
+2024-05-09T19:15:33.148-05:00  INFO 3764 --- [onpe] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2546 ms
+2024-05-09T19:15:33.409-05:00  INFO 3764 --- [onpe] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09T19:15:33.428-05:00  INFO 3764 --- [onpe] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-09T19:15:33.557-05:00  INFO 3764 --- [onpe] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09T19:15:33.629-05:00  INFO 3764 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-05-09T19:15:33.814-05:00  INFO 3764 --- [onpe] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@576c3c03
+2024-05-09T19:15:33.821-05:00  INFO 3764 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-05-09T19:15:33.829-05:00  WARN 3764 --- [onpe] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-09T19:15:34.505-05:00  INFO 3764 --- [onpe] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09T19:15:34.513-05:00  INFO 3764 --- [onpe] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:15:35.186-05:00  WARN 3764 --- [onpe] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T19:15:36.089-05:00  INFO 3764 --- [onpe] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-09T19:15:36.122-05:00  INFO 3764 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1/onpe'
+2024-05-09T19:15:36.144-05:00  INFO 3764 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Started OnpeApplication in 5.907 seconds (process running for 59.67)
+2024-05-09T19:15:36.160-05:00  INFO 3764 --- [onpe] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-09T19:15:36.613-05:00  INFO 3764 --- [onpe] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T19:15:36.628-05:00  INFO 3764 --- [onpe] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-09T19:15:36.647-05:00  INFO 3764 --- [onpe] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-09T19:27:20.217-05:00  INFO 10420 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Starting OnpeApplication using Java 22.0.1 with PID 10420 (C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring\target\classes started by Eyder in C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring)
+2024-05-09T19:27:20.225-05:00  INFO 10420 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T19:27:20.474-05:00  INFO 10420 --- [onpe] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-09T19:27:20.475-05:00  INFO 10420 --- [onpe] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-09T19:27:23.586-05:00  INFO 10420 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T19:27:23.860-05:00  INFO 10420 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 245 ms. Found 7 JPA repository interfaces.
+2024-05-09T19:27:26.483-05:00  INFO 10420 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-09T19:27:26.563-05:00  INFO 10420 --- [onpe] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T19:27:26.564-05:00  INFO 10420 --- [onpe] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T19:27:26.797-05:00  INFO 10420 --- [onpe] [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring embedded WebApplicationContext
+2024-05-09T19:27:26.799-05:00  INFO 10420 --- [onpe] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6321 ms
+2024-05-09T19:27:27.456-05:00  INFO 10420 --- [onpe] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09T19:27:27.723-05:00  INFO 10420 --- [onpe] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-09T19:27:27.874-05:00  INFO 10420 --- [onpe] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-09T19:27:28.483-05:00  INFO 10420 --- [onpe] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09T19:27:28.575-05:00  INFO 10420 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T19:27:28.972-05:00  INFO 10420 --- [onpe] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15fe63cb
+2024-05-09T19:27:28.976-05:00  INFO 10420 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T19:27:29.157-05:00  WARN 10420 --- [onpe] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-09T19:27:31.776-05:00  INFO 10420 --- [onpe] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09T19:27:31.784-05:00  INFO 10420 --- [onpe] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:27:32.892-05:00  INFO 10420 --- [onpe] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-09T19:27:33.748-05:00  WARN 10420 --- [onpe] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T19:27:34.097-05:00  WARN 10420 --- [onpe] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'onpeController' method 
+com.kapu.onpe.controllers.OnpeController#getGrupoVotacion(String, String, String)
+to {GET [/actas/ubigeo/{departamento}/{provincia}/{id}/{id2}/{id3}]}: There is already 'onpeController' bean method
+com.kapu.onpe.controllers.OnpeController#getGrupo(String, String, String, String, String) mapped.
+2024-05-09T19:27:34.108-05:00  INFO 10420 --- [onpe] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:27:34.126-05:00  INFO 10420 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T19:27:34.275-05:00  INFO 10420 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T19:27:34.309-05:00  INFO 10420 --- [onpe] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-09T19:27:34.445-05:00  INFO 10420 --- [onpe] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-09T19:27:34.645-05:00 ERROR 10420 --- [onpe] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'onpeController' method 
+com.kapu.onpe.controllers.OnpeController#getGrupoVotacion(String, String, String)
+to {GET [/actas/ubigeo/{departamento}/{provincia}/{id}/{id2}/{id3}]}: There is already 'onpeController' bean method
+com.kapu.onpe.controllers.OnpeController#getGrupo(String, String, String, String, String) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.kapu.onpe.OnpeApplication.main(OnpeApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'onpeController' method 
+com.kapu.onpe.controllers.OnpeController#getGrupoVotacion(String, String, String)
+to {GET [/actas/ubigeo/{departamento}/{provincia}/{id}/{id2}/{id3}]}: There is already 'onpeController' bean method
+com.kapu.onpe.controllers.OnpeController#getGrupo(String, String, String, String, String) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:674) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:636) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239) ~[spring-webmvc-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	... 19 common frames omitted
+
+2024-05-09T19:31:56.280-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Starting OnpeApplication using Java 22.0.1 with PID 15828 (C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring\target\classes started by Eyder in C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring)
+2024-05-09T19:31:56.290-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T19:31:56.577-05:00  INFO 15828 --- [onpe] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-09T19:31:56.579-05:00  INFO 15828 --- [onpe] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-09T19:32:00.830-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T19:32:01.393-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 508 ms. Found 7 JPA repository interfaces.
+2024-05-09T19:32:06.455-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-09T19:32:06.523-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T19:32:06.524-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T19:32:06.724-05:00  INFO 15828 --- [onpe] [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring embedded WebApplicationContext
+2024-05-09T19:32:06.726-05:00  INFO 15828 --- [onpe] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10144 ms
+2024-05-09T19:32:07.322-05:00  INFO 15828 --- [onpe] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09T19:32:07.514-05:00  INFO 15828 --- [onpe] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-09T19:32:07.670-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-09T19:32:08.184-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09T19:32:08.264-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T19:32:08.664-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40ee1c79
+2024-05-09T19:32:08.670-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T19:32:08.870-05:00  WARN 15828 --- [onpe] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-09T19:32:11.646-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09T19:32:11.668-05:00  INFO 15828 --- [onpe] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:32:12.562-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-09T19:32:13.072-05:00  WARN 15828 --- [onpe] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T19:32:15.447-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-09T19:32:15.576-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1/onpe'
+2024-05-09T19:32:15.654-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Started OnpeApplication in 21.15 seconds (process running for 22.888)
+2024-05-09T19:33:15.821-05:00  INFO 15828 --- [onpe] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-09T19:33:15.882-05:00  INFO 15828 --- [onpe] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:33:15.897-05:00  INFO 15828 --- [onpe] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T19:33:16.126-05:00  INFO 15828 --- [onpe] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T19:33:17.335-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Starting OnpeApplication using Java 22.0.1 with PID 15828 (C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring\target\classes started by Eyder in C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring)
+2024-05-09T19:33:17.363-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T19:33:19.340-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T19:33:19.888-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 540 ms. Found 7 JPA repository interfaces.
+2024-05-09T19:33:22.123-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-09T19:33:22.144-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T19:33:22.440-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T19:33:22.821-05:00  INFO 15828 --- [onpe] [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring embedded WebApplicationContext
+2024-05-09T19:33:22.852-05:00  INFO 15828 --- [onpe] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5470 ms
+2024-05-09T19:33:23.439-05:00  INFO 15828 --- [onpe] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09T19:33:23.449-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-09T19:33:23.466-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09T19:33:23.650-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-05-09T19:33:23.748-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@413ef0d1
+2024-05-09T19:33:23.773-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-05-09T19:33:23.848-05:00  WARN 15828 --- [onpe] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-09T19:33:24.495-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09T19:33:24.497-05:00  INFO 15828 --- [onpe] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:33:25.010-05:00  WARN 15828 --- [onpe] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T19:33:25.492-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-09T19:33:25.629-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1/onpe'
+2024-05-09T19:33:25.660-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Started OnpeApplication in 9.095 seconds (process running for 92.894)
+2024-05-09T19:33:25.720-05:00  INFO 15828 --- [onpe] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-09T19:33:25.908-05:00  INFO 15828 --- [onpe] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T19:33:25.910-05:00  INFO 15828 --- [onpe] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-09T19:33:25.913-05:00  INFO 15828 --- [onpe] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-09T19:34:09.657-05:00  INFO 15828 --- [onpe] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-09T19:34:09.670-05:00  INFO 15828 --- [onpe] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:34:09.672-05:00  INFO 15828 --- [onpe] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-05-09T19:34:09.691-05:00  INFO 15828 --- [onpe] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-05-09T19:34:10.064-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Starting OnpeApplication using Java 22.0.1 with PID 15828 (C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring\target\classes started by Eyder in C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring)
+2024-05-09T19:34:10.069-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T19:34:10.822-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T19:34:10.948-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 7 JPA repository interfaces.
+2024-05-09T19:34:11.445-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-09T19:34:11.449-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T19:34:11.452-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T19:34:11.619-05:00  INFO 15828 --- [onpe] [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring embedded WebApplicationContext
+2024-05-09T19:34:11.650-05:00  INFO 15828 --- [onpe] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1561 ms
+2024-05-09T19:34:12.073-05:00  INFO 15828 --- [onpe] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09T19:34:12.195-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-09T19:34:12.456-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09T19:34:12.532-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-05-09T19:34:12.675-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d020210
+2024-05-09T19:34:12.738-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-05-09T19:34:12.765-05:00  WARN 15828 --- [onpe] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-09T19:34:13.371-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09T19:34:13.373-05:00  INFO 15828 --- [onpe] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:34:14.098-05:00  WARN 15828 --- [onpe] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T19:34:14.397-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-09T19:34:14.420-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1/onpe'
+2024-05-09T19:34:14.467-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Started OnpeApplication in 4.624 seconds (process running for 141.701)
+2024-05-09T19:34:14.480-05:00  INFO 15828 --- [onpe] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-09T19:34:15.985-05:00  INFO 15828 --- [onpe] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-09T19:34:16.002-05:00  INFO 15828 --- [onpe] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:34:16.013-05:00  INFO 15828 --- [onpe] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-05-09T19:34:16.018-05:00  INFO 15828 --- [onpe] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-05-09T19:34:17.056-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Starting OnpeApplication using Java 22.0.1 with PID 15828 (C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring\target\classes started by Eyder in C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring)
+2024-05-09T19:34:17.064-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T19:34:18.117-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T19:34:18.203-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 7 JPA repository interfaces.
+2024-05-09T19:34:18.466-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-09T19:34:18.469-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T19:34:18.470-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T19:34:18.668-05:00  INFO 15828 --- [onpe] [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring embedded WebApplicationContext
+2024-05-09T19:34:18.686-05:00  INFO 15828 --- [onpe] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1594 ms
+2024-05-09T19:34:18.918-05:00  INFO 15828 --- [onpe] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09T19:34:18.935-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-09T19:34:18.968-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09T19:34:18.977-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-05-09T19:34:19.001-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f7122ce
+2024-05-09T19:34:19.009-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-05-09T19:34:19.017-05:00  WARN 15828 --- [onpe] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-09T19:34:19.565-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09T19:34:19.570-05:00  INFO 15828 --- [onpe] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:34:20.271-05:00  WARN 15828 --- [onpe] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T19:34:20.659-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-09T19:34:20.802-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1/onpe'
+2024-05-09T19:34:20.816-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Started OnpeApplication in 4.474 seconds (process running for 148.05)
+2024-05-09T19:34:20.829-05:00  INFO 15828 --- [onpe] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-09T19:34:22.156-05:00  INFO 15828 --- [onpe] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-09T19:34:22.169-05:00  INFO 15828 --- [onpe] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:34:22.172-05:00  INFO 15828 --- [onpe] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-05-09T19:34:22.212-05:00  INFO 15828 --- [onpe] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-05-09T19:34:22.841-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Starting OnpeApplication using Java 22.0.1 with PID 15828 (C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring\target\classes started by Eyder in C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring)
+2024-05-09T19:34:22.849-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T19:34:23.827-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T19:34:23.916-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 7 JPA repository interfaces.
+2024-05-09T19:34:24.215-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-09T19:34:24.217-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T19:34:24.218-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T19:34:24.318-05:00  INFO 15828 --- [onpe] [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring embedded WebApplicationContext
+2024-05-09T19:34:24.320-05:00  INFO 15828 --- [onpe] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1427 ms
+2024-05-09T19:34:24.428-05:00  INFO 15828 --- [onpe] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09T19:34:24.442-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-09T19:34:24.509-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09T19:34:24.524-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-05-09T19:34:24.561-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@767ad46c
+2024-05-09T19:34:24.562-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-05-09T19:34:24.565-05:00  WARN 15828 --- [onpe] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-09T19:34:25.051-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09T19:34:25.053-05:00  INFO 15828 --- [onpe] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:34:25.331-05:00  WARN 15828 --- [onpe] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T19:34:25.527-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-09T19:34:25.550-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1/onpe'
+2024-05-09T19:34:25.557-05:00  INFO 15828 --- [onpe] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T19:34:25.560-05:00  INFO 15828 --- [onpe] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-09T19:34:25.564-05:00  INFO 15828 --- [onpe] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-05-09T19:34:25.565-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Started OnpeApplication in 2.985 seconds (process running for 152.798)
+2024-05-09T19:34:25.583-05:00  INFO 15828 --- [onpe] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-09T19:34:25.699-05:00  WARN 15828 --- [onpe] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id4' for method parameter type String is not present]
+2024-05-09T19:34:44.480-05:00  INFO 15828 --- [onpe] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-09T19:34:44.515-05:00  INFO 15828 --- [onpe] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:34:44.538-05:00  INFO 15828 --- [onpe] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-05-09T19:34:44.569-05:00  INFO 15828 --- [onpe] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-05-09T19:34:44.909-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Starting OnpeApplication using Java 22.0.1 with PID 15828 (C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring\target\classes started by Eyder in C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring)
+2024-05-09T19:34:44.912-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T19:34:45.752-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T19:34:45.810-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 7 JPA repository interfaces.
+2024-05-09T19:34:46.800-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-09T19:34:46.804-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T19:34:46.866-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T19:34:47.024-05:00  INFO 15828 --- [onpe] [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring embedded WebApplicationContext
+2024-05-09T19:34:47.026-05:00  INFO 15828 --- [onpe] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2073 ms
+2024-05-09T19:34:47.158-05:00  INFO 15828 --- [onpe] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09T19:34:47.169-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-09T19:34:47.218-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09T19:34:47.221-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-05-09T19:34:47.237-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ed038f3
+2024-05-09T19:34:47.239-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-05-09T19:34:47.243-05:00  WARN 15828 --- [onpe] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-09T19:34:47.708-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09T19:34:47.711-05:00  INFO 15828 --- [onpe] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:34:48.187-05:00  WARN 15828 --- [onpe] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T19:34:48.397-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-09T19:34:48.421-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1/onpe'
+2024-05-09T19:34:48.429-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Started OnpeApplication in 3.698 seconds (process running for 175.662)
+2024-05-09T19:34:48.431-05:00  INFO 15828 --- [onpe] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-09T19:34:49.883-05:00  INFO 15828 --- [onpe] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-09T19:34:49.891-05:00  INFO 15828 --- [onpe] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:34:49.903-05:00  INFO 15828 --- [onpe] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-05-09T19:34:50.080-05:00  INFO 15828 --- [onpe] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-05-09T19:34:50.409-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Starting OnpeApplication using Java 22.0.1 with PID 15828 (C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring\target\classes started by Eyder in C:\Users\Eyder\Documents\Proyectos\APIOnpeSpring)
+2024-05-09T19:34:50.412-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T19:34:51.126-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T19:34:51.245-05:00  INFO 15828 --- [onpe] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112 ms. Found 7 JPA repository interfaces.
+2024-05-09T19:34:51.768-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-09T19:34:51.776-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T19:34:51.777-05:00  INFO 15828 --- [onpe] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T19:34:51.853-05:00  INFO 15828 --- [onpe] [restartedMain] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring embedded WebApplicationContext
+2024-05-09T19:34:51.854-05:00  INFO 15828 --- [onpe] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1437 ms
+2024-05-09T19:34:52.137-05:00  INFO 15828 --- [onpe] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-09T19:34:52.149-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-09T19:34:52.163-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-09T19:34:52.169-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-05-09T19:34:52.189-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47cc693a
+2024-05-09T19:34:52.194-05:00  INFO 15828 --- [onpe] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-05-09T19:34:52.198-05:00  WARN 15828 --- [onpe] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-05-09T19:34:52.769-05:00  INFO 15828 --- [onpe] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-09T19:34:52.783-05:00  INFO 15828 --- [onpe] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T19:34:53.787-05:00  WARN 15828 --- [onpe] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T19:34:54.229-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-09T19:34:54.303-05:00  INFO 15828 --- [onpe] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/api/v1/onpe'
+2024-05-09T19:34:54.317-05:00  INFO 15828 --- [onpe] [restartedMain] com.kapu.onpe.OnpeApplication            : Started OnpeApplication in 4.068 seconds (process running for 181.552)
+2024-05-09T19:34:54.322-05:00  INFO 15828 --- [onpe] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-09T19:34:58.929-05:00  INFO 15828 --- [onpe] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/api/v1/onpe]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T19:34:58.929-05:00  INFO 15828 --- [onpe] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-09T19:34:58.931-05:00  INFO 15828 --- [onpe] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
